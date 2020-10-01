@@ -1,0 +1,17 @@
+site_name: 'eData Docs'
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+          remove_comments: true
+theme:
+  name: material
+  language: es
+  palette:
+    scheme: slate
+    primary: yellow
+    accent: light blue
+  features:
+    - navigation.tabs

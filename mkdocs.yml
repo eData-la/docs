@@ -1,7 +1,4 @@
 site_name: 'eData: Documentación'
-copy1: 'Made with '
-copy2: '<a href="https://www.google.com/maps/place/Colombia/@4.6097385,-83.3935394,5z/data=!3m1!4b1!4m5!3m4!1s0x8e15a43aae1594a3:0x9a0d9a04eff2a340!8m2!3d4.570868!4d-74.297333" target="_blank" rel="noopener">❤ in Colombia</a>'
-copy3: ' (not Columbia)'
 
 plugins:
   - search
@@ -10,39 +7,62 @@ plugins:
       minify_js: true
       htmlmin_opts:
           remove_comments: true
-
 theme:
   name: material
   language: es
   custom_dir: overrides
   include_search_page: false
   search_index_only: true
+  font:
+    text: Segoe UI
   palette:
     scheme: slate
-    primary: yellow
-    accent: light blue
+    primary: lime
+    accent: deep orange
   features:
-    - navigation.tabs
-  markdown_extensions:
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    - pymdownx.emoji
-    - pymdownx.highlight:
-        linenums: true
-    - meta
+     - navigation.tabs
+     - navigation.instant
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - meta # page-specific context
+  - pymdownx.highlight:  # better code, instead of CodeHilite
+      linenums_style: table
+  - pymdownx.inlinehilite # like codehilite but inline
+  - pymdownx.superfences
+  - toc:
+      permalink:         true # inserts an anchor
+  - footnotes
+  - sane_lists # better ul and ol
+  - nl2br # newline hard break
+  - pymdownx.betterem:   # better italic and bold
+      smart_enable:      asterisk
+  - pymdownx.details # details and summary; work with admonition
+  - pymdownx.emoji:
+      emoji_index:       !!python/name:pymdownx.emoji.twemoji
+      emoji_generator:   !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink # auto links
+  - pymdownx.tasklist:   # better tasks lists
+      custom_checkbox:   true
+  - pymdownx.tabbed # auto tabs
+  - attr_list
+
+
 
 extra:
     social:
         - icon: fontawesome/brands/github
           link: https://github.com/edata-la/
 
-# Page tree
+#Page tree
 nav:
     - Inicio: index.md
     - Getting started:
-        - Installation: pag2.md
-        - Creating your site: creating-your-site.md
+        - pag2.md
+        - Creating your site: pag3.md
         - Publishing your site: publishing-your-site.md
         - Customization: customization.md
         - Troubleshooting: troubleshooting.md

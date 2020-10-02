@@ -64,15 +64,15 @@
 
       <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
-        {% if config.copy1 %} {{ config.copy1 }} {% endif %}
-
-        {% if config.copy2 %}
-          <span class="md-footer-copyright__highlight">
-            {{ config.copy2 }}
+        Made with 
+          <span class="twemoji heart">
+            {% include ".icons/octicons/heart-fill-24.svg" %}
           </span>
-        {% endif %}
+          <span class="md-footer-copyright__highlight">
+            <a href="https://www.google.com/maps/place/Colombia/@4.6097385,-83.3935394,5z/data=!3m1!4b1!4m5!3m4!1s0x8e15a43aae1594a3:0x9a0d9a04eff2a340!8m2!3d4.570868!4d-74.297333" target="_blank" rel="noopener"> in Colombia</a>
+          </span>
 
-        {% if config.copy3 %} {{ config.copy3 }} {% endif %}
+        (not Columbia)
       </div>
 
       <!-- Social links -->

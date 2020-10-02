@@ -1,0 +1,26 @@
+h1 {
+    font-size: 32px;
+    font-weight: 500 !important;
+    line-height: 40;
+    overflow-wrap: break-word;
+}
+
+.md-typeset {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.note {
+    font-size: 14px !important;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footnote {
+    line-height: 1.6 !important;
+}
+
+.heart {
+    animation: heart 1000ms infinite;
+}

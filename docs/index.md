@@ -1,6 +1,14 @@
-# Welcome to MkDocs titulo
+# Stripe identity verification product
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Stripe [Radar](pag3.md) is a suite of modern tools to help you fight fraud. It’s fully integrated into your payments flow and you can start using it without any additional development time.
+
+At the center of Stripe Radar is a machine learning system that provides real-time transaction scoring based upon thousands of signals about each incoming card payment. Our system also uses data across Stripe’s network of millions of businesses to evaluate the level of risk for each payment you process, and has shielded businesses on Stripe from millions of attempted fraudulent payments. If you’ve integrated with Stripe 
+
+- integrated with Stripe
+- At the center of Stripe Radar is a machine learning system that provides real-time transaction scoring based upon thousands of signals about each incoming card payment. Our system also uses data across 
+- Stripe’s network of millions of businesses to evaluate the level of risk for each payment you process, and has shielded busin
+- enter of Stripe Radar is a machine learning system that provides real-time transaction scorin
+
 
 ## Commands
 

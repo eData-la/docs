@@ -60,15 +60,9 @@ extra:
 #Page tree
 nav:
     - Inicio: index.md
-    - Getting started:
-        - pag2.md
-        - Creating your site: pag3.md
-        - Publishing your site: publishing-your-site.md
-        - Customization: customization.md
-        - Troubleshooting: troubleshooting.md
-        - Data privacy: data-privacy.md
-        - Insiders: insiders.md
-        - License: license.md
+    - Productos:
+        - products/ping.md
+        - products/ebinlookup.md
     - Setup:
         - Changing the colors: setup/changing-the-colors.md
         - Changing the fonts: setup/changing-the-fonts.md

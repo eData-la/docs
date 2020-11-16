@@ -8,8 +8,8 @@
 Este endpoint requiere tener una cuenta en eData y un token de autenticación.
 
 ## Documentación
-Puedes encontrar la [documentación de este API aquí](https://ebinlookup.docs.apiary.io/#reference/bin-lookup)
+Puedes encontrar la [documentación de este API aquí](https://ebinlookup.docs.apiary.io/#reference/bin-lookup){target=_blank}.
 
 ## Pricing
 
-### hola
+Para conocer el precio de este servicio por favor comunícate con nosotros.

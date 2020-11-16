@@ -8,4 +8,4 @@
 No se requiere autenticación para utilizar este endpoint.
 
 ## Documentación
- Puedes encontrar la [documentación de este API aquí](https://ebinlookup.docs.apiary.io/#reference/monitoreo)
+ Puedes encontrar la [documentación de este API aquí](https://ebinlookup.docs.apiary.io/#reference/monitoreo){target=_blank}.
